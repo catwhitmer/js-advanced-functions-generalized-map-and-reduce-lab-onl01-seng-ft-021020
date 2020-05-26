@@ -7,10 +7,7 @@ function map(array, fn){
 }
 
 function reduce(array, fn, startingPoint){
-    let accumulator;
-    let index;
-
-    if(!!startingPoint){
+  if(!!startingPoint){
         accumulator = startingPoint;
         index = 0;
     } else {
