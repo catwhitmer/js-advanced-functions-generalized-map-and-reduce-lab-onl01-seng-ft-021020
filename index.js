@@ -3,5 +3,5 @@ function map(array, fn){
     array.forEach(index => {
         newArray.push(fn(index))
     });
-    return mappedArray;
+    return newArray;
 }
