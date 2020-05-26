@@ -1,5 +1,5 @@
-function map(array, func){
-    let mappedArray = [];
+function map(array, fn){
+    let newArray = [];
     array.forEach(index => {
         mappedArray.push(func(index))
     });
