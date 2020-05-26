@@ -18,7 +18,7 @@ function reduce(array, fn, startingPoint){
         index = 2;
     }
     for(index; index< array.length; index++){
-        accumulator = func(accumulator, array[index])
+        accumulator = fn(accumulator, array[index])
     }
     return accumulator;
 }
